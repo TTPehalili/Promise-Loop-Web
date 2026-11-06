@@ -364,13 +364,25 @@ export const tools: Tools = {
 /* 6.7 / 7.1–7.2 Hear the calling team (#calls, dark)                  */
 /* ------------------------------------------------------------------ */
 
+/** Speaker keys used in content/mock-calls.json, content/voices.json and content/call-timings.json. */
+export type CallSpeaker = "ANA" | "JUN" | "CARTER" | "RACHEL" | "MARCUS" | "TONY";
+
+export interface CallParticipant {
+  speaker: CallSpeaker;
+  /** Display name on the card. */
+  name: string;
+  /** Monogram in the small circle (no photos or faces). */
+  initials: string;
+}
+
 export interface CallCard {
-  /** Matches `id` in content/mock-calls.json and the key in content/call-durations.json. */
+  /** Matches `id` in content/mock-calls.json and the key in content/call-durations.json / call-timings.json. */
   id: 1 | 2 | 3 | 4;
   title: string;
   /** Small line, paper at 70%. */
   situation: string;
-  rep: string;
+  rep: CallParticipant;
+  customer: CallParticipant;
   /** Shown with a small mint check. */
   outcome: string;
   audioSrc: `/audio/call-${number}.mp3`;
@@ -389,14 +401,29 @@ export interface CallingTeam {
   /** Always visible, small, above the cards. */
   label: string;
   cards: readonly CallCard[];
+  // Player microcopy. Added for the audio-first dialogue player (not in the brief's §7 copy);
+  // plain words, sentence case. Copywriter to review.
   player: {
-    listen: string;
-    pause: string;
-    /** Replace {id} and {title}. */
-    ariaListenTemplate: string;
-    repPrefix: string;
+    /** Accessible names for the play button. Replace {id} and {title}. */
+    ariaPlayTemplate: string;
+    ariaPauseTemplate: string;
+    /** Accessible name for the scrub bar. Replace {title}. */
+    ariaSeekTemplate: string;
+    /** aria-valuetext for the scrub bar. Replace {elapsed} and {total}. */
+    seekValueTemplate: string;
+    /** Shown instead of the player while public/audio/call-N.mp3 does not exist. */
+    comingSoon: string;
+    repRole: string;
+    customerRole: string;
+    /** Screen-reader text on the participant who is talking. */
+    nowSpeaking: string;
+    /** Accessible name for the participant pair. */
+    participantsLabel: string;
+    /** Small, low-emphasis text alternative link (WCAG 1.2.1). */
     showTranscript: string;
     hideTranscript: string;
+    /** Region label. Replace {title}. */
+    transcriptLabelTemplate: string;
   };
 }
 
@@ -413,7 +440,8 @@ export const callingTeam: CallingTeam = {
       id: 1,
       title: "The brush-off",
       situation: 'HVAC · $1,284.50 · 94 days late · "Just email me"',
-      rep: "Ana",
+      rep: { speaker: "ANA", name: "Ana", initials: "A" },
+      customer: { speaker: "CARTER", name: "Dan Carter", initials: "DC" },
       outcome: "Loop closed: $400 Friday, the rest on the 27th",
       audioSrc: "/audio/call-1.mp3",
       duration: null,
@@ -422,7 +450,8 @@ export const callingTeam: CallingTeam = {
       id: 2,
       title: '"Your guy did a bad job"',
       situation: "Plumbing · $2,150 · 61 days late · Refuses to pay over a mess",
-      rep: "Jun",
+      rep: { speaker: "JUN", name: "Jun", initials: "J" },
+      customer: { speaker: "RACHEL", name: "Rachel Morrison", initials: "RM" },
       outcome: "Loop closed: paid in full on the 16th, complaint sent to the owner",
       audioSrc: "/audio/call-2.mp3",
       duration: null,
@@ -431,7 +460,8 @@ export const callingTeam: CallingTeam = {
       id: 3,
       title: '"I can\'t afford it"',
       situation: "Electrical · $3,480 · 120 days late · Hardship",
-      rep: "Ana",
+      rep: { speaker: "ANA", name: "Ana", initials: "A" },
+      customer: { speaker: "MARCUS", name: "Marcus Webb", initials: "MW" },
       outcome: "Loop closed: $580 a month for 6 months",
       audioSrc: "/audio/call-3.mp3",
       duration: null,
@@ -440,19 +470,26 @@ export const callingTeam: CallingTeam = {
       id: 4,
       title: "The hothead",
       situation: 'Roofing · $1,890 · 75 days late · "I\'ll report you"',
-      rep: "Jun",
+      rep: { speaker: "JUN", name: "Jun", initials: "J" },
+      customer: { speaker: "TONY", name: "Tony Russo", initials: "TR" },
       outcome: "Loop closed: paid in full on the 17th, calls only after 6 PM",
       audioSrc: "/audio/call-4.mp3",
       duration: null,
     },
   ],
   player: {
-    listen: "Listen",
-    pause: "Pause",
-    ariaListenTemplate: "Listen to call {id}, {title}",
-    repPrefix: "Rep:",
-    showTranscript: "Read transcript",
+    ariaPlayTemplate: "Play call {id}, {title}",
+    ariaPauseTemplate: "Pause call {id}, {title}",
+    ariaSeekTemplate: "Position in {title}",
+    seekValueTemplate: "{elapsed} of {total}",
+    comingSoon: "Audio coming soon",
+    repRole: "PromiseLoop rep",
+    customerRole: "Customer",
+    nowSpeaking: "Now speaking",
+    participantsLabel: "On this call",
+    showTranscript: "Transcript",
     hideTranscript: "Hide transcript",
+    transcriptLabelTemplate: "{title} transcript",
   },
 };
 

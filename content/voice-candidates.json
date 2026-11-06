@@ -1,0 +1,323 @@
+{
+  "generatedAt": "2026-11-06T18:10:22.619Z",
+  "roles": {
+    "ANA": {
+      "brief": "Rep. Filipino-accented English, female, warm and clear, 20s to 30s.",
+      "candidates": [
+        {
+          "voice_id": "sfEqHIAPrP82grzla9Ji",
+          "public_owner_id": "f081acc347a9adfde2092fb7f626111d8d9fe04ced7d8489dc76750d31c4cb8c",
+          "name": "Juvy - Gentle, Youthful and Hesitant",
+          "accent": "filipino",
+          "gender": "female",
+          "age": "young",
+          "descriptive": "casual",
+          "use_case": "characters_animation",
+          "category": "professional",
+          "language": "en",
+          "cloned_by_count": 13879,
+          "is_added_by_user": false,
+          "preview_url": "https://storage.googleapis.com/eleven-public-prod/database/user/OkKVJ7JMavetZCC8qGrSjmdlmg22/voices/sfEqHIAPrP82grzla9Ji/HiqEOh5oxwFN3cvwNmL8.mp3",
+          "description": "a Filipino teenage girl with a soft voice, perfect for any projects you think is appropriate for it."
+        },
+        {
+          "voice_id": "T2OtqAWGDq4sh6HX3MwH",
+          "public_owner_id": "18b6f038186ba974fe33d7f281cb40fd9146c95a452425bd6a582689ad9c585e",
+          "name": "Teacher Rayla - Storyteller",
+          "accent": "filipino",
+          "gender": "female",
+          "age": "old",
+          "descriptive": "professional",
+          "use_case": "informative_educational",
+          "category": "high_quality",
+          "language": "en",
+          "cloned_by_count": 14507,
+          "is_added_by_user": false,
+          "preview_url": "https://storage.googleapis.com/eleven-public-prod/database/workspace/00d3e426a4ec48cda2413d7038347603/voices/T2OtqAWGDq4sh6HX3MwH/8w07SUM8skYC0mHlbA4N.mp3",
+          "description": "Teacher Rayla’s voice is warm, clear, and empowering — like a guiding light for every learner. She sounds Special, Unique, and Precious, always empowered to be Responsible. Her tone is nurturing yet firm, inspiring confidence and action. Each word carries purpose, lifting others to believe in themselves. She doesn’t just speak — she connects, teaches, and transforms with heart and conviction for Children."
+        },
+        {
+          "voice_id": "6AUOG2nbfr0yFEeI0784",
+          "public_owner_id": "85238ab5c2723992dda13ea02b8abd4149fdef8fad840fafd684d22175b8e05c",
+          "name": "Rachel - Inviting, Warm, and Friendly",
+          "accent": "filipino",
+          "gender": "female",
+          "age": "middle_aged",
+          "descriptive": "pleasant",
+          "use_case": "informative_educational",
+          "category": "professional",
+          "language": "en",
+          "cloned_by_count": 45793,
+          "is_added_by_user": false,
+          "preview_url": "https://storage.googleapis.com/eleven-public-prod/database/user/pflvwQGn5KMt7HVPlthuBmAZsiE2/voices/6AUOG2nbfr0yFEeI0784/IXeZgOyps6VbVU3PgPU3.mp3",
+          "description": "A warm, friendly Filipina teacher's voice that brings lessons and songs to life. Clear, nurturing, and engaging; loved by kids and trusted by parents. Perfect for storytime, e-learning, and sing-along videos. "
+        }
+      ]
+    },
+    "JUN": {
+      "brief": "Rep. Filipino-accented English, male, friendly and professional, 20s to 30s.",
+      "candidates": [
+        {
+          "voice_id": "Ut5AWJgla3AWMsiT7lQF",
+          "public_owner_id": "18b6f038186ba974fe33d7f281cb40fd9146c95a452425bd6a582689ad9c585e",
+          "name": "Robert - Excited, Cheerful, and Polished",
+          "accent": "filipino",
+          "gender": "male",
+          "age": "middle_aged",
+          "descriptive": "excited",
+          "use_case": "informative_educational",
+          "category": "professional",
+          "language": "en",
+          "cloned_by_count": 3420,
+          "is_added_by_user": false,
+          "preview_url": "https://storage.googleapis.com/eleven-public-prod/database/workspace/00d3e426a4ec48cda2413d7038347603/voices/Ut5AWJgla3AWMsiT7lQF/5c374bde-648d-4b45-a726-3d4632464c08.mp3",
+          "description": "A young and dynamic male voice that perfectly matches the vibrant tone of Quick Electronics 101. With a bright, upbeat energy and a naturally engaging delivery, this voice brings life to tech tutorials, making even the most complex electronics concepts feel exciting and easy to understand."
+        },
+        {
+          "voice_id": "Z7waMujh537KStREwfTf",
+          "public_owner_id": "c3672230c7b97e7ce260a08412a3d449684525141616979251740245f5323a1c",
+          "name": "Ran - Encouraging, Clear, and Energetic",
+          "accent": "filipino",
+          "gender": "male",
+          "age": "young",
+          "descriptive": "formal",
+          "use_case": "informative_educational",
+          "category": "professional",
+          "language": "en",
+          "cloned_by_count": 6202,
+          "is_added_by_user": false,
+          "preview_url": "https://storage.googleapis.com/eleven-public-prod/database/user/KSWTmUtw9FRvmpCxyn5cXYP6A6G3/voices/Z7waMujh537KStREwfTf/cltfX2LiGJ7rfl5WgoYT.mp3",
+          "description": "A young English speaking native Filipino male voice. Good for educational content and news reporting."
+        },
+        {
+          "voice_id": "iSwrnpET4L5IyyN7X7UT",
+          "public_owner_id": "4abf82160013c0bb5e8defe07fa71020ef51b1213d89c418e86b3fa00853d196",
+          "name": "Rye - Light, Natural and Pleasant",
+          "accent": "filipino",
+          "gender": "male",
+          "age": "middle_aged",
+          "descriptive": "neutral",
+          "use_case": "conversational",
+          "category": "professional",
+          "language": "en",
+          "cloned_by_count": 1330,
+          "is_added_by_user": false,
+          "preview_url": "https://storage.googleapis.com/eleven-public-prod/database/workspace/4c51901363d44d32817805f362e9a9ac/voices/iSwrnpET4L5IyyN7X7UT/WjmYSyVISYezmslStBDm.mp3",
+          "description": "A younger middle-aged voice perfect for podcasts or general conversational topics."
+        }
+      ]
+    },
+    "RACHEL": {
+      "brief": "Customer. American, female, conversational, 30s to 40s, can sound heated then laugh.",
+      "candidates": [
+        {
+          "voice_id": "g6xIsTj2HwM6VR4iXFCw",
+          "public_owner_id": "066125d0c3eac062cd6655ed319d2347c29d07eab96ee22c6ebe7ef1841c3b1a",
+          "name": "Jessica Anne Bogart - Chatty and Friendly",
+          "accent": "american",
+          "gender": "female",
+          "age": "middle_aged",
+          "descriptive": "crisp",
+          "use_case": "conversational",
+          "category": "high_quality",
+          "language": "en",
+          "cloned_by_count": 320866,
+          "is_added_by_user": false,
+          "preview_url": "https://api.us.elevenlabs.io/v1/voices/g6xIsTj2HwM6VR4iXFCw/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJmYjFiZDE4NzA4MDE0ZDhkODBlNzcwZGY1ZWExMWJiNyIsImZpbGVuYW1lIjoiMU9xazlTZXNReFVNeG9wZmdMYjcubXAzIiwidGltZXN0YW1wIjoxNzkzOTg4MDAwMDAwMDAwfQ%3D%3D",
+          "description": "Friendly and Conversational Female voice. Articulate, Confident and Helpful. Works well for Conversations."
+        },
+        {
+          "voice_id": "P7x743VjyZEOihNNygQ9",
+          "public_owner_id": "7c2487405fac3e357fde2df1d4fe34e7d622b6276d231d7d67edeec13460ae5c",
+          "name": "Dakota - Engaging and Steady",
+          "accent": "american",
+          "gender": "female",
+          "age": "middle_aged",
+          "descriptive": "pleasant",
+          "use_case": "conversational",
+          "category": "professional",
+          "language": "en",
+          "cloned_by_count": 45328,
+          "is_added_by_user": false,
+          "preview_url": "https://storage.googleapis.com/eleven-public-prod/database/workspace/8f68264023ce481db070132bbcc70ff5/voices/P7x743VjyZEOihNNygQ9/LZlYGXR9ACWHJ9pSXs0a.mp3",
+          "description": "Middle-aged African American southern female. "
+        },
+        {
+          "voice_id": "MnUw1cSnpiLoLhpd3Hqp",
+          "public_owner_id": "eb2542ad3e336d5d4ccecee0483fb924e91414601b1d4da4f24a075fe08a4935",
+          "name": "Heather Rey - Rushed and Friendly",
+          "accent": "american",
+          "gender": "female",
+          "age": "middle_aged",
+          "descriptive": "upbeat",
+          "use_case": "conversational",
+          "category": "high_quality",
+          "language": "en",
+          "cloned_by_count": 7908,
+          "is_added_by_user": false,
+          "preview_url": "https://storage.googleapis.com/eleven-public-prod/custom/voices/MnUw1cSnpiLoLhpd3Hqp/BkcUy0E78hTXrDJNX2j9.mp3",
+          "description": "Middle aged woman full of life and adventure.  She's the cool mom."
+        }
+      ]
+    },
+    "CARTER": {
+      "brief": "Customer. American, male, contractor on a job site, impatient then friendly, 30s to 40s.",
+      "candidates": [
+        {
+          "voice_id": "1SM7GgM6IMuvQlz2BwM3",
+          "public_owner_id": "024c9393c6380665357f60b1062c863cd635d79791f13d6f0a834a319d5ff56c",
+          "name": "Mark - Casual, Relaxed and Light",
+          "accent": "american",
+          "gender": "male",
+          "age": "middle_aged",
+          "descriptive": "casual",
+          "use_case": "conversational",
+          "category": "high_quality",
+          "language": "en",
+          "cloned_by_count": 1057929,
+          "is_added_by_user": false,
+          "preview_url": "https://api.us.elevenlabs.io/v1/voices/1SM7GgM6IMuvQlz2BwM3/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJmOTRlMjYwMjAwNzY0Njc4YmFiYzgwN2I5MzViZmIwYiIsImZpbGVuYW1lIjoieTk0RzFyR2l4YXFMMkZ2UDNUdGUubXAzIiwidGltZXN0YW1wIjoxNzkzOTg4MDAwMDAwMDAwfQ%3D%3D",
+          "description": ""
+        },
+        {
+          "voice_id": "8sZxD42zKDvoEXNxBTdX",
+          "public_owner_id": "1506fcb0e0dce894681c7a4cb658cbce33799cff02331c9e6043a5b133e21786",
+          "name": "James - Blaring, Casual and Familiar",
+          "accent": "american",
+          "gender": "male",
+          "age": "middle_aged",
+          "descriptive": "pleasant",
+          "use_case": "conversational",
+          "category": "professional",
+          "language": "en",
+          "cloned_by_count": 13026,
+          "is_added_by_user": false,
+          "preview_url": "https://api.us.elevenlabs.io/v1/voices/8sZxD42zKDvoEXNxBTdX/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiIwYjIzZjRjMzBjNWY0MTIzYjliNmY0ODViOGVlM2M4ZiIsImZpbGVuYW1lIjoiT1VydDk2c3kyd2oxRkVLNHlKOVgubXAzIiwidGltZXN0YW1wIjoxNzkzOTg4MDAwMDAwMDAwfQ%3D%3D",
+          "description": "James - Genuine conversationalist. Middle aged American Male, confident and clear, excellent pause and breath with proper tonality. You will notice that range and professionalism in his voice. Do give it a try."
+        },
+        {
+          "voice_id": "XAezqB2SuTKEhjCMe7Oy",
+          "public_owner_id": "da6d18324da66b26c0a653d55d9a659c77cb85df3941904668ee2b344bb9d510",
+          "name": "Roger - Laid-Back, Casual & Resonant",
+          "accent": "american",
+          "gender": "male",
+          "age": "middle_aged",
+          "descriptive": "casual",
+          "use_case": "conversational",
+          "category": "high_quality",
+          "language": "en",
+          "cloned_by_count": 46729,
+          "is_added_by_user": false,
+          "preview_url": "https://storage.googleapis.com/eleven-public-prod/database/workspace/e9f5485839c749cdae7fddf080cda345/voices/XAezqB2SuTKEhjCMe7Oy/ZgwbzKLYCuV09C41IXZn.mp3",
+          "description": "Easy going and perfect for casual conversations."
+        }
+      ]
+    },
+    "MARCUS": {
+      "brief": "Customer. American, male, tired single dad, guarded and bitter then quiet, 30s.",
+      "candidates": [
+        {
+          "voice_id": "UgBBYS2sOqTuMpoF3BR0",
+          "public_owner_id": "024c9393c6380665357f60b1062c863cd635d79791f13d6f0a834a319d5ff56c",
+          "name": "Mark - Natural Conversations",
+          "accent": "american",
+          "gender": "male",
+          "age": "young",
+          "descriptive": "casual",
+          "use_case": "conversational",
+          "category": "high_quality",
+          "language": "en",
+          "cloned_by_count": 4213966,
+          "is_added_by_user": false,
+          "preview_url": "https://storage.googleapis.com/eleven-public-prod/database/workspace/f94e260200764678babc807b935bfb0b/voices/UgBBYS2sOqTuMpoF3BR0/0Oc7jiXwWN9kRTXfQsmw.mp3",
+          "description": "A casual, young-adult speaking in a natural manner. Perfect for Conversational AI."
+        },
+        {
+          "voice_id": "s3TPKV1kjDlVtZbl4Ksh",
+          "public_owner_id": "502051858a59ec3587d31ef2b30fe042bbe9c6d09be23fd96295ce04ddeed49c",
+          "name": "Adam - Engaging, Friendly and Bright",
+          "accent": "american",
+          "gender": "male",
+          "age": "young",
+          "descriptive": "confident",
+          "use_case": "conversational",
+          "category": "high_quality",
+          "language": "en",
+          "cloned_by_count": 784285,
+          "is_added_by_user": false,
+          "preview_url": "https://api.us.elevenlabs.io/v1/voices/s3TPKV1kjDlVtZbl4Ksh/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ1c2VyX2lkIjoidTdFaWQ3ZVVucVBJVWdMTHBLbGs3V3dSUU5PMiIsImZpbGVuYW1lIjoibGpLNlpvSzJPT1RSOGtYSjhBcnAubXAzIiwidGltZXN0YW1wIjoxNzkzOTg4MDAwMDAwMDAwfQ%3D%3D",
+          "description": "Adam is a male voice, 20s–30s, blends clarity, and confident expression. Ideal for creators and brands who want their content to feel real, relatable, and human.\n\nTrained across multiple formats including storytelling, ads, social media, tutorials, and casual dialogue, Adam adapts seamlessly to your tone.\n\nWhether guiding, selling, or narrating, Adam builds trust, relatability, and connection from the very first word.\n\nFriendly, grounded, expressive -ready to elevate your content"
+        },
+        {
+          "voice_id": "ZoiZ8fuDWInAcwPXaVeq",
+          "public_owner_id": "544aaf0748f9cde67ddf64379bc7ce9186de33756773d529a16cd3d830347455",
+          "name": "Josh - Warm, Smooth and Steady",
+          "accent": "american",
+          "gender": "male",
+          "age": "young",
+          "descriptive": "casual",
+          "use_case": "conversational",
+          "category": "high_quality",
+          "language": "en",
+          "cloned_by_count": 77803,
+          "is_added_by_user": false,
+          "preview_url": "https://storage.googleapis.com/eleven-public-prod/database/user/FRG9eBYz8ogKLVm7y3tLhgw1gv13/voices/ZoiZ8fuDWInAcwPXaVeq/9EwzECjtvTDxjoH3F7fg.mp3",
+          "description": "A friendly, conversational voice designed for natural back-and-forth dialogue. It balances warmth and professionalism, making it ideal for conversational use cases like customer service, helpdesk automation, and AI-powered support experiences. The tone feels human, approachable, and effortlessly clear."
+        }
+      ]
+    },
+    "TONY": {
+      "brief": "Customer. American, male, hothead who shouts then calms down, 40s to 50s.",
+      "candidates": [
+        {
+          "voice_id": "KvaCHcJoMXfOzwtsULOZ",
+          "public_owner_id": "1a76b02cecffbd3f25a01b953eaecc6c05a281d4be25de83fa454db6a9c6eef6",
+          "name": "Hank Harvey - Gruff, Rugged and Wise",
+          "accent": "american",
+          "gender": "male",
+          "age": "middle_aged",
+          "descriptive": "deep",
+          "use_case": "conversational",
+          "category": "professional",
+          "language": "en",
+          "cloned_by_count": 3243,
+          "is_added_by_user": false,
+          "preview_url": "https://storage.googleapis.com/eleven-public-prod/database/user/e61rLIXeUGZTBV1mUOdZKpGTS8F2/voices/KvaCHcJoMXfOzwtsULOZ/4dc5c080-af43-4d40-8ed8-0a9e43821c33.mp3",
+          "description": "A 38 year old gruff American male from the mountains. Calm, Chill, focused. "
+        },
+        {
+          "voice_id": "kSSJYNGo5Kev6qgwVloV",
+          "public_owner_id": "4e120f88d43f125a4c1f56885db63990e17568c80c5cca2f9f3a6459230fbeb1",
+          "name": "Mike - Multi Trade Expert",
+          "accent": "american",
+          "gender": "male",
+          "age": "middle_aged",
+          "descriptive": "confident",
+          "use_case": "conversational",
+          "category": "high_quality",
+          "language": "en",
+          "cloned_by_count": 1026,
+          "is_added_by_user": false,
+          "preview_url": "https://api.us.elevenlabs.io/v1/voices/kSSJYNGo5Kev6qgwVloV/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI2MGRmNWU4ZTg1NDM0Yzg3YjU4Njg2MDUyNGZlNjA1YyIsImZpbGVuYW1lIjoielBUR2JVSFBYU0JIZXRuS3lyZGQubXAzIiwidGltZXN0YW1wIjoxNzkzOTg4MDAwMDAwMDAwfQ%3D%3D",
+          "description": "A blue collar agent voice for service business communications or for making educational building and construction related content.  The voice of an experienced tradesperson with a non determinate North Eastern US accent. Competant, Relatable and reaslistically gruff."
+        },
+        {
+          "voice_id": "PkXdd1CtcEwYvEaKpJSR",
+          "public_owner_id": "78a157aa94cd4926b1ba4a23feb3d95fd3fd0d190083f0274784e2a4e5f58b43",
+          "name": "David - Space Adventurer Pirate",
+          "accent": "american",
+          "gender": "male",
+          "age": "middle_aged",
+          "descriptive": "casual",
+          "use_case": "conversational",
+          "category": "professional",
+          "language": "en",
+          "cloned_by_count": 431,
+          "is_added_by_user": false,
+          "preview_url": "https://storage.googleapis.com/eleven-public-prod/database/workspace/77859dde6dde43f9882993b4fa2d8ae6/voices/PkXdd1CtcEwYvEaKpJSR/MDwLOToTpwChwKKr0yDW.mp3",
+          "description": "A gruff, weathered pirate voice with a deep, rugged tone, theatrical delivery, and plenty of character. Ideal for fantasy adventures, pirate captains, villains, tavern scenes, games, animation, audiobooks, and dramatic storytelling. Capable of sounding intimidating, humorous, energetic, or quietly menacing."
+        }
+      ]
+    }
+  }
+}

@@ -1,18 +1,30 @@
 // Hear the calling team (brief §6.7, §7). Dark section, server component.
-// Checks per call whether public/audio/call-N.mp3 exists; a missing file means
-// no Listen button, transcript only (§7.3).
+// Audio-first: each card is a two-voice dialogue player. Per call it checks whether
+// public/audio/call-N.mp3 exists; until it does, the card shows a disabled "Audio coming soon"
+// player (the card and its transcript stay). Duration and per-line speaker timings come from
+// content/call-durations.json and content/call-timings.json, written by scripts/generate-calls.mjs.
 import fs from "node:fs";
 import path from "node:path";
 import { callingTeam } from "@/content/site";
 import durations from "@/content/call-durations.json";
+import timingsFile from "@/content/call-timings.json";
+import mockCalls from "@/content/mock-calls.json";
 import { BanknotePattern } from "@/components/marketing/graphics/BanknotePattern";
-import { CallCard } from "@/components/marketing/CallCard";
+import { CallCard, type CallTiming } from "@/components/marketing/CallCard";
 import { Transcript } from "@/components/marketing/Transcript";
 
 const durationMap = durations as Record<string, string | undefined>;
+const timingMap = timingsFile as Record<string, CallTiming[] | undefined>;
+const lineCounts = new Map((mockCalls as { id: number; lines: unknown[] }[]).map((c) => [c.id, c.lines.length]));
 
 function audioExists(src: string) {
   return fs.existsSync(path.join(process.cwd(), "public", src.replace(/^\//, "")));
+}
+
+/** Timings only count if they match the current script, line for line. */
+function timingsFor(id: number) {
+  const t = timingMap[String(id)];
+  return Array.isArray(t) && t.length === lineCounts.get(id) ? t : null;
 }
 
 export function CallingTeam() {
@@ -41,27 +53,38 @@ export function CallingTeam() {
         <div className="mt-4 grid items-start gap-6 md:grid-cols-2">
           {cards.map((card) => {
             const hasAudio = audioExists(card.audioSrc);
+            const fill = (tpl: string) => tpl.replace("{id}", String(card.id)).replace("{title}", card.title);
             return (
               <CallCard
                 key={card.id}
                 id={card.id}
                 title={card.title}
                 situation={card.situation}
-                rep={card.rep}
                 outcome={card.outcome}
                 audioSrc={card.audioSrc}
                 hasAudio={hasAudio}
                 duration={hasAudio ? (durationMap[String(card.id)] ?? card.duration) : null}
+                timings={hasAudio ? timingsFor(card.id) : null}
+                rep={{ ...card.rep, role: player.repRole }}
+                customer={{ ...card.customer, role: player.customerRole }}
                 labels={{
-                  listen: player.listen,
-                  ariaListen: player.ariaListenTemplate
-                    .replace("{id}", String(card.id))
-                    .replace("{title}", card.title),
-                  repPrefix: player.repPrefix,
+                  play: fill(player.ariaPlayTemplate),
+                  pause: fill(player.ariaPauseTemplate),
+                  seek: fill(player.ariaSeekTemplate),
+                  seekValueTemplate: player.seekValueTemplate,
+                  comingSoon: player.comingSoon,
+                  nowSpeaking: player.nowSpeaking,
+                  participantsLabel: player.participantsLabel,
                   showTranscript: player.showTranscript,
                   hideTranscript: player.hideTranscript,
+                  transcriptLabel: fill(player.transcriptLabelTemplate),
                 }}
-                transcript={<Transcript callId={card.id} />}
+                transcript={
+                  <Transcript
+                    callId={card.id}
+                    names={{ [card.rep.speaker]: card.rep.name, [card.customer.speaker]: card.customer.name }}
+                  />
+                }
               />
             );
           })}
