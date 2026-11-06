@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "title": "The brush-off",
+    "seed": 4217,
+    "company": "Lone Star HVAC",
+    "location": "Austin, Texas",
+    "customer": "Daniel Carter",
+    "service": "AC replacement",
+    "amount": "$1,284.50",
+    "daysLate": 94,
+    "rep": "Ana",
+    "outcome": "$400 on Friday the 13th, $884.50 on the 27th.",
+    "lines": [
+      {
+        "speaker": "CARTER",
+        "text": "[distracted, background noise] Yeah, hello?"
+      },
+      {
+        "speaker": "ANA",
+        "text": "[warm, clear] Hi, good afternoon. This is Ana, calling for Lone Star HVAC with PromiseLoop. May I speak with Daniel Carter, please?"
+      },
+      {
+        "speaker": "CARTER",
+        "text": "[impatient] This is Dan. What's this about?"
+      },
+      {
+        "speaker": "ANA",
+        "text": "Thanks, Dan. Just so you know, this call is recorded for quality. And for your privacy, can you confirm the ZIP code for your service address?"
+      },
+      {
+        "speaker": "CARTER",
+        "text": "[sighs] Seven-eight-seven-four-five. Look, I'm on a job site right now."
+      },
+      {
+        "speaker": "ANA",
+        "text": "I'll keep it quick. This is an attempt to collect a debt, and any information obtained will be used for that purpose. I'm calling on behalf of Lone Star HVAC in Austin, Texas, about the AC replacement at your home in August. There's an open balance of twelve eighty-four fifty."
+      },
+      {
+        "speaker": "CARTER",
+        "text": "[interrupting, annoyed] Yeah, yeah. Just email me the bill. I'll take care of it."
+      },
+      {
+        "speaker": "ANA",
+        "text": "[calm] I can absolutely email it. Can I ask you one thing first, so I'm not just sending you another email you've already got?"
+      },
+      {
+        "speaker": "CARTER",
+        "text": "[short pause] ...Fine. What."
+      },
+      {
+        "speaker": "ANA",
+        "text": "Lone Star has sent the invoice three times since August. So I don't think the email is the problem. What's actually holding it up?"
+      },
+      {
+        "speaker": "CARTER",
+        "text": "[defensive] Nothing's holding it up. I've just been slammed. I'm running my own crew, I've got trucks, I've got guys to pay..."
+      },
+      {
+        "speaker": "ANA",
+        "text": "[empathetic] That makes sense. You know what it's like when a customer sits on an invoice."
+      },
+      {
+        "speaker": "CARTER",
+        "text": "[pause, then a dry laugh] ...Okay. Fair hit."
+      },
+      {
+        "speaker": "ANA",
+        "text": "[lightly] Not a hit, just something we both understand. So let's make it easy. If you could pay the full amount this week, would you?"
+      },
+      {
+        "speaker": "CARTER",
+        "text": "[exhales] Not this week. My truck's transmission went out last month. That was four grand I didn't plan for."
+      },
+      {
+        "speaker": "ANA",
+        "text": "Ouch. I'm sorry. Then let's not set you up to miss. What could you do by Friday, the 13th?"
+      },
+      {
+        "speaker": "CARTER",
+        "text": "[hesitant] I don't know... three hundred?"
+      },
+      {
+        "speaker": "ANA",
+        "text": "[steady] Let's be realistic together. If you could do four hundred Friday, the remaining eight eighty-four fifty would be due on the 27th, after your next round of jobs closes. Does that work, or does the 27th feel tight?"
+      },
+      {
+        "speaker": "CARTER",
+        "text": "[thinking] ...Four hundred Friday. Rest on the 27th. Yeah. I can do that."
+      },
+      {
+        "speaker": "ANA",
+        "text": "Perfect. Let me read it back. Four hundred dollars on Friday, November 13th, and eight hundred eighty-four fifty on Friday, November 27th, for the AC replacement from Lone Star HVAC. Correct?"
+      },
+      {
+        "speaker": "CARTER",
+        "text": "Correct."
+      },
+      {
+        "speaker": "ANA",
+        "text": "Great. I'll email Lone Star's secure payment link to the address they have on file, the one ending in carter-builds dot com. You'll also get a written notice with the balance and your rights, including how to dispute it if anything's ever wrong."
+      },
+      {
+        "speaker": "CARTER",
+        "text": "[softer] Okay. Hey, sorry for being short with you. It's been a week."
+      },
+      {
+        "speaker": "ANA",
+        "text": "[warmly] No apology needed, Dan. Thanks for working it out with me. Good luck on the job site."
+      },
+      {
+        "speaker": "CARTER",
+        "text": "Thanks, Ana. Bye."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "\"Your guy did a bad job\"",
+    "seed": 4217,
+    "company": "Peak Plumbing Co.",
+    "location": "Denver, Colorado",
+    "customer": "Rachel Morrison",
+    "service": "Water heater install",
+    "amount": "$2,150.00",
+    "daysLate": 61,
+    "rep": "Jun",
+    "outcome": "full payment Monday the 16th; cleanup complaint sent to the owner.",
+    "lines": [
+      {
+        "speaker": "RACHEL",
+        "text": "Hello?"
+      },
+      {
+        "speaker": "JUN",
+        "text": "[friendly, professional] Hi, good morning. This is Jun, calling for Peak Plumbing Company with PromiseLoop. May I speak with Rachel Morrison, please?"
+      },
+      {
+        "speaker": "RACHEL",
+        "text": "[wary] Speaking."
+      },
+      {
+        "speaker": "JUN",
+        "text": "Thank you, Rachel. This call is recorded for quality. And for your privacy, could you confirm the ZIP code for your service address?"
+      },
+      {
+        "speaker": "RACHEL",
+        "text": "Eight-zero-two-two-zero."
+      },
+      {
+        "speaker": "JUN",
+        "text": "Thank you. This is an attempt to collect a debt, and any information obtained will be used for that purpose. I'm calling on behalf of Peak Plumbing Company in Denver, Colorado, about the water heater installed at your home in September. The balance is two thousand one hundred fifty dollars."
+      },
+      {
+        "speaker": "RACHEL",
+        "text": "[instantly heated] Oh, you have got to be kidding me. No. Absolutely not. I'm not paying a dime until somebody from Peak explains why their guy left my basement looking like a construction site."
+      },
+      {
+        "speaker": "JUN",
+        "text": "[calm, slower] Okay. That sounds really frustrating. Tell me what happened."
+      },
+      {
+        "speaker": "RACHEL",
+        "text": "[ranting] He hauls the old tank out, drags it across my carpet, there's water and black gunk all over the floor, and he leaves the old box and packaging right there by my washer. I had to clean it up myself. On a Saturday. With two kids."
+      },
+      {
+        "speaker": "JUN",
+        "text": "[sincere] That's not okay, and I'm sorry you had to deal with that. I want to make sure the owner hears this, not just me. Can I ask you a direct question?"
+      },
+      {
+        "speaker": "RACHEL",
+        "text": "[sharp] Go ahead."
+      },
+      {
+        "speaker": "JUN",
+        "text": "Is the water heater itself working? Any leaks, any issues with hot water?"
+      },
+      {
+        "speaker": "RACHEL",
+        "text": "[pause, grudging] ...No. It works fine. That's not the point."
+      },
+      {
+        "speaker": "JUN",
+        "text": "I hear you, it's not the whole point. I'm asking because I need to record this correctly. Are you disputing the amount of the bill, or is your complaint about the cleanup and how the job was left?"
+      },
+      {
+        "speaker": "RACHEL",
+        "text": "[sighs] I'm not saying the price is wrong. I'm saying they should treat people's homes with some respect."
+      },
+      {
+        "speaker": "JUN",
+        "text": "That's completely fair. So here's what I'll do. I'm logging your complaint word for word, the carpet, the mess, the packaging, and sending it to Peak's owner today, with a request that someone from Peak calls you about the carpet. That part doesn't depend on the bill."
+      },
+      {
+        "speaker": "RACHEL",
+        "text": "[skeptical] And then what? You keep calling me?"
+      },
+      {
+        "speaker": "JUN",
+        "text": "[straightforward] Not if we settle it now. The heater's working, and the price isn't in question. If we set a date for the payment, you won't hear from me again about this. Separately, Peak hears about the cleanup."
+      },
+      {
+        "speaker": "RACHEL",
+        "text": "[long pause] ...You're very calm for someone I just yelled at."
+      },
+      {
+        "speaker": "JUN",
+        "text": "[light laugh] You weren't yelling at me. You were yelling at the gunk on your floor."
+      },
+      {
+        "speaker": "RACHEL",
+        "text": "[laughs despite herself] Okay. Fine. I get paid on the 15th. I can pay it all on Monday, the 16th."
+      },
+      {
+        "speaker": "JUN",
+        "text": "Thank you, Rachel. To confirm: two thousand one hundred fifty dollars, paid in full on Monday, November 16th, to Peak Plumbing Company. I'll email you Peak's secure payment link right after this call. And your cleanup complaint goes to the owner today, with your request for a call back about the carpet."
+      },
+      {
+        "speaker": "RACHEL",
+        "text": "Good. And tell them about the box by the washer."
+      },
+      {
+        "speaker": "JUN",
+        "text": "[smiling] The box by the washer is in the notes. You'll also get a written notice with the balance and your rights, including how to dispute anything if you ever need to. Anything else I can help with?"
+      },
+      {
+        "speaker": "RACHEL",
+        "text": "No. Thanks, Jun. Really."
+      },
+      {
+        "speaker": "JUN",
+        "text": "You're welcome. Have a good rest of your day."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "\"I can't afford it\"",
+    "seed": 4217,
+    "company": "Sunbelt Electric",
+    "location": "Phoenix, Arizona",
+    "customer": "Marcus Webb",
+    "service": "Electrical panel upgrade",
+    "amount": "$3,480.00",
+    "daysLate": 120,
+    "rep": "Ana",
+    "outcome": "$580 a month for 6 months, first payment Friday the 20th. Sunbelt has approved plans of up to 6 months for this account.",
+    "lines": [
+      {
+        "speaker": "MARCUS",
+        "text": "[tired] Hello."
+      },
+      {
+        "speaker": "ANA",
+        "text": "Hi, good evening. This is Ana, calling for Sunbelt Electric with PromiseLoop. May I speak with Marcus Webb, please?"
+      },
+      {
+        "speaker": "MARCUS",
+        "text": "[guarded] Who's asking?"
+      },
+      {
+        "speaker": "ANA",
+        "text": "Ana, from Sunbelt Electric's billing team, with PromiseLoop. Is this Marcus?"
+      },
+      {
+        "speaker": "MARCUS",
+        "text": "[sighs] Yeah. It's Marcus."
+      },
+      {
+        "speaker": "ANA",
+        "text": "Thank you. This call is recorded for quality. For your privacy, can you confirm the ZIP code for your service address?"
+      },
+      {
+        "speaker": "MARCUS",
+        "text": "Eight-five-oh-three-two."
+      },
+      {
+        "speaker": "ANA",
+        "text": "Thank you, Marcus. This is an attempt to collect a debt, and any information obtained will be used for that purpose. I'm calling on behalf of Sunbelt Electric in Phoenix, Arizona, about the electrical panel upgrade at your home in July. The balance is three thousand four hundred eighty dollars."
+      },
+      {
+        "speaker": "MARCUS",
+        "text": "[bitter laugh] Yeah. I know. I don't have it. I don't have three thousand dollars. I don't have three hundred."
+      },
+      {
+        "speaker": "ANA",
+        "text": "[gentle, steady] Okay. Thank you for being straight with me. Can you tell me what's changed since July?"
+      },
+      {
+        "speaker": "MARCUS",
+        "text": "[frustrated] What's changed? They cut my hours at the warehouse in August. I've got two kids, I'm doing this on my own, and the panel wasn't a choice. The inspector said it was a fire hazard. So, what, I should've let my house burn down?"
+      },
+      {
+        "speaker": "ANA",
+        "text": "[sincere] No. You did the right thing for your kids. I mean that."
+      },
+      {
+        "speaker": "MARCUS",
+        "text": "[angry] Then why am I getting calls like I'm some kind of deadbeat? You people don't care. You just want your money."
+      },
+      {
+        "speaker": "ANA",
+        "text": "[calm, firm] I hear that, and I'm not calling because I think you're a deadbeat. I'm calling because you've got an open bill, and I'd rather help you build a plan you can actually keep than have this sit on you for another four months. Is that fair?"
+      },
+      {
+        "speaker": "MARCUS",
+        "text": "[pause] ...Yeah. Fine. But I'm telling you, I can't pay it all."
+      },
+      {
+        "speaker": "ANA",
+        "text": "Then we won't try to do it all at once. Let me ask: with your hours now, what's a monthly amount you could commit to without missing rent or groceries?"
+      },
+      {
+        "speaker": "MARCUS",
+        "text": "[hesitant] I don't know. Two hundred?"
+      },
+      {
+        "speaker": "ANA",
+        "text": "I appreciate the honesty. Two hundred a month would take a year and a half, and Sunbelt can approve a plan of up to six months on this account. Over six months, that's five hundred eighty a month. Can I ask what your take-home looks like right now?"
+      },
+      {
+        "speaker": "MARCUS",
+        "text": "[exhales] About twenty-six hundred a month, after the cut. Rent's twelve hundred."
+      },
+      {
+        "speaker": "ANA",
+        "text": "Okay. That's tight, I won't pretend it isn't. Is there a payday where five eighty would land best, right after you get paid?"
+      },
+      {
+        "speaker": "MARCUS",
+        "text": "[thinking] I get paid on the fifth and the twentieth. The twentieth is the bigger one... Can you knock anything off the total? Like, at all?"
+      },
+      {
+        "speaker": "ANA",
+        "text": "[honest] I'm not able to reduce the balance, and I don't want to promise you something I can't do. What I can do is spread it so no single month breaks you. Five eighty on the twentieth, six months. Can you commit to that?"
+      },
+      {
+        "speaker": "MARCUS",
+        "text": "[long pause] ...If I miss one, what happens?"
+      },
+      {
+        "speaker": "ANA",
+        "text": "You call before the date, and we talk. That's it. No surprises."
+      },
+      {
+        "speaker": "MARCUS",
+        "text": "[quietly] Okay. Yeah. Let's do it."
+      },
+      {
+        "speaker": "ANA",
+        "text": "Thank you, Marcus. Let me confirm: five hundred eighty dollars a month, on the twentieth, for six months, starting Friday, November 20th, for three thousand four hundred eighty dollars total, to Sunbelt Electric. I'll email Sunbelt's secure payment link to the address they have on file. You'll also get the plan in writing, plus a notice with the balance and your rights, including how to dispute it."
+      },
+      {
+        "speaker": "MARCUS",
+        "text": "[softer] Alright. Thanks for not making me feel like garbage."
+      },
+      {
+        "speaker": "ANA",
+        "text": "[warmly] You took care of your home and your kids. Now you're taking care of this. Have a good night, Marcus."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "The hothead",
+    "seed": 4217,
+    "company": "Gulf Coast Roofing",
+    "location": "Pensacola, Florida",
+    "customer": "Tony Russo",
+    "service": "Roof leak repair",
+    "amount": "$1,890.00",
+    "daysLate": 75,
+    "rep": "Jun",
+    "outcome": "full payment Tuesday the 17th after an itemized invoice is sent; calls only after 6 PM, never at work.",
+    "lines": [
+      {
+        "speaker": "TONY",
+        "text": "[already irritated] Yeah?"
+      },
+      {
+        "speaker": "JUN",
+        "text": "Hi, good evening. This is Jun, calling for Gulf Coast Roofing with PromiseLoop. May I speak with Tony Russo, please?"
+      },
+      {
+        "speaker": "TONY",
+        "text": "[snaps] This is Tony. Are you the people who keep calling me? Because I swear—"
+      },
+      {
+        "speaker": "JUN",
+        "text": "[calm, even] I may be. Before anything else, this call is recorded for quality. And for your privacy, can you confirm the ZIP code for your service address?"
+      },
+      {
+        "speaker": "TONY",
+        "text": "[annoyed] Three-two-five-oh-three. Now what do you want?"
+      },
+      {
+        "speaker": "JUN",
+        "text": "Thank you, Tony. This is an attempt to collect a debt, and any information obtained will be used for that purpose. I'm calling on behalf of Gulf Coast Roofing in Pensacola, Florida, about the roof leak repair at your home in August. The balance is eighteen hundred ninety dollars."
+      },
+      {
+        "speaker": "TONY",
+        "text": "[shouting] Unbelievable. You people call me at work, you call me at dinner, I've had it. I'm reporting you. I'm serious, I'll file a complaint."
+      },
+      {
+        "speaker": "JUN",
+        "text": "[steady, not defensive] You have every right to do that, Tony, and I'll give you our complaint line if you want it. I also want to fix the part that's bothering you. Our notes show two calls this week. When's a time that actually works for you?"
+      },
+      {
+        "speaker": "TONY",
+        "text": "[still hot] How about never?"
+      },
+      {
+        "speaker": "JUN",
+        "text": "If you want us to stop calling, tell me, and I'll note it right now. I'm only asking because I'd like to settle this with you so you don't get any more calls at all."
+      },
+      {
+        "speaker": "TONY",
+        "text": "[pause, grumbling] ...Don't call me at work. Ever. My boss heard the last one."
+      },
+      {
+        "speaker": "JUN",
+        "text": "Done. I'm noting no calls to your workplace. Is after six in the evening better on this number?"
+      },
+      {
+        "speaker": "TONY",
+        "text": "[calmer] After six. Yeah. Where are you even calling from? You're not in Pensacola."
+      },
+      {
+        "speaker": "JUN",
+        "text": "[honest, friendly] No, I'm not. I'm on Gulf Coast Roofing's billing team, working with PromiseLoop from Manila, in the Philippines. We're their offshore team for open invoices."
+      },
+      {
+        "speaker": "TONY",
+        "text": "[scoffs] Great. They outsourced it."
+      },
+      {
+        "speaker": "JUN",
+        "text": "[lightly] They did. And I'm the one who actually reads your notes. So tell me, what's kept this from getting paid since August?"
+      },
+      {
+        "speaker": "TONY",
+        "text": "[exhales, venting] Because I called Gulf Coast twice asking for an itemized invoice. Twice. All I got was a total. Eighteen ninety for a leak? I want to see what I'm paying for."
+      },
+      {
+        "speaker": "JUN",
+        "text": "That's a reasonable ask. Are you disputing the amount, or do you just want to see the breakdown before you pay?"
+      },
+      {
+        "speaker": "TONY",
+        "text": "[pause] ...I just want to see it. The roof's fine. It hasn't leaked since."
+      },
+      {
+        "speaker": "JUN",
+        "text": "Good, glad the repair held. Here's what I'll do. I'll request the itemized invoice from Gulf Coast tonight and email it to you, with their payment link. If the breakdown looks right, can we agree on a date to pay it in full?"
+      },
+      {
+        "speaker": "TONY",
+        "text": "[grudging] If it looks right... I get paid Monday. I'll pay it Tuesday."
+      },
+      {
+        "speaker": "JUN",
+        "text": "Thank you. Let me confirm. Gulf Coast Roofing sends you an itemized invoice by email. Once you have it, you'll pay eighteen hundred ninety dollars in full on Tuesday, November 17th. No calls to your workplace, and calls to this number only after six PM. If anything on the invoice looks wrong, you tell me and we pause until it's sorted."
+      },
+      {
+        "speaker": "TONY",
+        "text": "[quieter] ...Yeah. That's fair."
+      },
+      {
+        "speaker": "JUN",
+        "text": "You'll also get a written notice with the balance and your rights, including how to dispute it. Anything else I can do for you tonight?"
+      },
+      {
+        "speaker": "TONY",
+        "text": "[pause] No. Look, man, sorry I yelled. It's not you."
+      },
+      {
+        "speaker": "JUN",
+        "text": "[warmly] I appreciate that, Tony. Enjoy your dinner."
+      }
+    ]
+  }
+]

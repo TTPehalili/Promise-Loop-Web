@@ -78,3 +78,101 @@
     transition-duration: 0.01ms !important;
   }
 }
+
+/* ------------------------------------------------------------------ */
+/* Legal prose — /privacy and /terms (brief §10).                      */
+/* Owned by the legal pages (components/marketing/LegalPage.tsx).      */
+/* Hand-written; no @tailwindcss/typography.                           */
+/* ------------------------------------------------------------------ */
+@layer components {
+  .legal-prose {
+    @apply text-base leading-relaxed text-ink;
+  }
+  .legal-prose > * + * {
+    @apply mt-5;
+  }
+  .legal-prose h2 {
+    @apply mt-12 scroll-mt-20 font-display text-[22px] font-semibold leading-snug text-ink;
+  }
+  .legal-prose h2 + * {
+    @apply mt-4;
+  }
+  .legal-prose h3 {
+    @apply mt-8 font-sans text-lg font-semibold text-ink;
+  }
+  .legal-prose strong {
+    @apply font-semibold text-ink;
+  }
+  .legal-prose ul,
+  .legal-prose ol {
+    @apply space-y-3 pl-6;
+  }
+  .legal-prose ul {
+    @apply list-disc;
+  }
+  .legal-prose ol {
+    @apply list-decimal;
+  }
+  .legal-prose li {
+    @apply pl-1;
+  }
+  .legal-prose li::marker {
+    @apply text-ink-muted;
+  }
+  .legal-prose a {
+    @apply rounded-sm text-mint-ink underline underline-offset-4 hover:text-brand;
+  }
+  .legal-prose table {
+    @apply small w-full border-collapse border border-line bg-surface text-left;
+  }
+  .legal-prose th,
+  .legal-prose td {
+    @apply border border-line px-4 py-3 align-top;
+  }
+  .legal-prose th {
+    @apply font-semibold text-ink;
+  }
+  .legal-prose hr {
+    @apply my-12 border-line;
+  }
+}
+/* End legal prose ---------------------------------------------------- */
+
+/* ------------------------------------------------------------------ */
+/* Assistant widget — components/assistant/* (brief §8).               */
+/* Typing dots and the ring-closes-into-a-check draw. The global       */
+/* reduced-motion rule above makes both static.                        */
+/* ------------------------------------------------------------------ */
+@keyframes pl-assistant-dot {
+  0%,
+  80%,
+  100% {
+    opacity: 0.3;
+  }
+  40% {
+    opacity: 1;
+  }
+}
+.pl-assistant-dot {
+  opacity: 0.6;
+  animation: pl-assistant-dot 1s ease-in-out infinite;
+}
+@keyframes pl-assistant-draw {
+  from {
+    stroke-dashoffset: 1;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.pl-assistant-ring-draw,
+.pl-assistant-check-draw {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 0;
+  animation: pl-assistant-draw 360ms cubic-bezier(0.4, 0, 0.2, 1) backwards;
+}
+.pl-assistant-check-draw {
+  animation-duration: 240ms;
+  animation-delay: 360ms;
+}
+/* End assistant widget ---------------------------------------------- */
