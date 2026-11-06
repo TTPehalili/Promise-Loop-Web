@@ -103,7 +103,7 @@ export interface Hero {
 }
 
 export const hero: Hero = {
-  eyebrow: "Collections as a service for US service businesses",
+  eyebrow: "Collections as a service for US field service companies",
   h1: "Your unpaid jobs are a pipeline. We work it.",
   subhead:
     "PromiseLoop is your outsourced collections team in Manila. Trained reps call your customers in your name, on your own dialer, and turn past-due invoices into promises to pay, and promises into confirmed cash. Without burning the customer.",
