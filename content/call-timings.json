@@ -8,122 +8,122 @@
     {
       "speaker": "ANA",
       "start": 0.8,
-      "end": 9.12
+      "end": 9.2
     },
     {
       "speaker": "CARTER",
-      "start": 9.12,
-      "end": 11.12
+      "start": 9.2,
+      "end": 11.36
     },
     {
       "speaker": "ANA",
-      "start": 11.12,
-      "end": 19.84
+      "start": 11.36,
+      "end": 20.88
     },
     {
       "speaker": "CARTER",
-      "start": 19.84,
-      "end": 24.16
+      "start": 20.88,
+      "end": 25.92
     },
     {
       "speaker": "ANA",
-      "start": 24.16,
-      "end": 41.92
-    },
-    {
-      "speaker": "CARTER",
-      "start": 41.92,
+      "start": 25.92,
       "end": 44.96
     },
     {
-      "speaker": "ANA",
+      "speaker": "CARTER",
       "start": 44.96,
-      "end": 53.28
-    },
-    {
-      "speaker": "CARTER",
-      "start": 53.28,
-      "end": 56
+      "end": 48.32
     },
     {
       "speaker": "ANA",
-      "start": 56,
-      "end": 64.32
+      "start": 48.32,
+      "end": 55.44
     },
     {
       "speaker": "CARTER",
-      "start": 64.32,
-      "end": 70.48
+      "start": 55.44,
+      "end": 58.16
     },
     {
       "speaker": "ANA",
-      "start": 70.48,
-      "end": 74.64
+      "start": 58.16,
+      "end": 65.92
     },
     {
       "speaker": "CARTER",
-      "start": 74.64,
-      "end": 76.48
+      "start": 65.92,
+      "end": 72.64
     },
     {
       "speaker": "ANA",
-      "start": 76.51,
-      "end": 85.55
+      "start": 72.64,
+      "end": 76.96
     },
     {
       "speaker": "CARTER",
-      "start": 85.55,
-      "end": 91.55
+      "start": 76.96,
+      "end": 78.8
     },
     {
       "speaker": "ANA",
-      "start": 91.55,
-      "end": 99.39
+      "start": 78.84,
+      "end": 87.64
     },
     {
       "speaker": "CARTER",
-      "start": 99.39,
-      "end": 101.95
+      "start": 87.64,
+      "end": 93.8
     },
     {
       "speaker": "ANA",
-      "start": 101.95,
-      "end": 117.31
+      "start": 93.8,
+      "end": 101.72
     },
     {
       "speaker": "CARTER",
-      "start": 117.31,
-      "end": 122.43
+      "start": 101.72,
+      "end": 103.8
     },
     {
       "speaker": "ANA",
-      "start": 122.43,
-      "end": 137.39
+      "start": 103.8,
+      "end": 120.04
     },
     {
       "speaker": "CARTER",
-      "start": 137.39,
-      "end": 138.19
+      "start": 120.04,
+      "end": 125.08
     },
     {
       "speaker": "ANA",
-      "start": 138.19,
-      "end": 155.95
+      "start": 125.08,
+      "end": 140.92
     },
     {
       "speaker": "CARTER",
-      "start": 155.95,
-      "end": 159.63
+      "start": 140.92,
+      "end": 141.72
     },
     {
       "speaker": "ANA",
-      "start": 159.63,
-      "end": 165.79
+      "start": 141.72,
+      "end": 159.16
     },
     {
       "speaker": "CARTER",
-      "start": 165.79,
-      "end": 167.31
+      "start": 159.16,
+      "end": 163.08
+    },
+    {
+      "speaker": "ANA",
+      "start": 163.08,
+      "end": 168.84
+    },
+    {
+      "speaker": "CARTER",
+      "start": 168.84,
+      "end": 170.44
     }
   ],
   "2": [
@@ -267,137 +267,137 @@
     {
       "speaker": "ANA",
       "start": 1.52,
-      "end": 9.2
+      "end": 8.8
     },
     {
       "speaker": "MARCUS",
-      "start": 9.2,
-      "end": 11.6
+      "start": 8.8,
+      "end": 10.96
     },
     {
       "speaker": "ANA",
-      "start": 11.6,
-      "end": 16.64
+      "start": 10.96,
+      "end": 16.24
     },
     {
       "speaker": "MARCUS",
-      "start": 16.64,
-      "end": 20.08
+      "start": 16.24,
+      "end": 18.72
     },
     {
       "speaker": "ANA",
-      "start": 20.08,
+      "start": 18.72,
+      "end": 26.32
+    },
+    {
+      "speaker": "MARCUS",
+      "start": 26.32,
       "end": 28
     },
     {
-      "speaker": "MARCUS",
+      "speaker": "ANA",
       "start": 28,
-      "end": 30.16
-    },
-    {
-      "speaker": "ANA",
-      "start": 30.16,
-      "end": 50.32
+      "end": 47.92
     },
     {
       "speaker": "MARCUS",
-      "start": 50.32,
-      "end": 57.6
+      "start": 47.92,
+      "end": 55.52
     },
     {
       "speaker": "ANA",
-      "start": 57.6,
-      "end": 63.92
+      "start": 55.52,
+      "end": 62.08
     },
     {
       "speaker": "MARCUS",
-      "start": 63.92,
-      "end": 78.16
+      "start": 62.08,
+      "end": 76.56
     },
     {
       "speaker": "ANA",
-      "start": 78.16,
-      "end": 82.88
+      "start": 76.56,
+      "end": 80.96
     },
     {
       "speaker": "MARCUS",
-      "start": 82.88,
-      "end": 88.88
+      "start": 80.96,
+      "end": 87.28
     },
     {
       "speaker": "ANA",
-      "start": 88.88,
-      "end": 104.72
+      "start": 87.28,
+      "end": 102.4
     },
     {
       "speaker": "MARCUS",
-      "start": 104.72,
-      "end": 109.36
+      "start": 102.4,
+      "end": 107.36
     },
     {
       "speaker": "ANA",
-      "start": 109.36,
-      "end": 120.4
+      "start": 107.36,
+      "end": 117.92
     },
     {
       "speaker": "MARCUS",
-      "start": 120.4,
-      "end": 122.96
+      "start": 117.92,
+      "end": 121.04
     },
     {
       "speaker": "ANA",
-      "start": 123.01,
-      "end": 141.09
+      "start": 123.17,
+      "end": 138.77
     },
     {
       "speaker": "MARCUS",
-      "start": 141.09,
-      "end": 147.57
+      "start": 138.77,
+      "end": 144.77
     },
     {
       "speaker": "ANA",
-      "start": 147.57,
-      "end": 156.69
+      "start": 144.77,
+      "end": 152.45
     },
     {
       "speaker": "MARCUS",
-      "start": 156.69,
-      "end": 165.57
+      "start": 152.45,
+      "end": 161.33
     },
     {
       "speaker": "ANA",
-      "start": 165.57,
-      "end": 183.89
+      "start": 161.33,
+      "end": 176.21
     },
     {
       "speaker": "MARCUS",
-      "start": 183.89,
-      "end": 188.05
+      "start": 176.21,
+      "end": 179.65
     },
     {
       "speaker": "ANA",
-      "start": 188.05,
-      "end": 193.17
+      "start": 179.65,
+      "end": 184.29
     },
     {
       "speaker": "MARCUS",
-      "start": 193.17,
-      "end": 196.53
+      "start": 184.29,
+      "end": 187.97
     },
     {
       "speaker": "ANA",
-      "start": 196.53,
-      "end": 228.93
+      "start": 187.97,
+      "end": 213.25
     },
     {
       "speaker": "MARCUS",
-      "start": 228.93,
-      "end": 232.93
+      "start": 213.25,
+      "end": 216.93
     },
     {
       "speaker": "ANA",
-      "start": 232.93,
-      "end": 241.01
+      "start": 216.93,
+      "end": 224.21
     }
   ],
   "4": [

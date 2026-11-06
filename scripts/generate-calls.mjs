@@ -330,13 +330,16 @@ for (const call of calls) {
   }
 
   const clean = path.join(OUT, `call-${call.id}.mp3`);
+  const joined = path.join(TMP, `call-${call.id}-joined.mp3`);
   if (files.length === 1) {
-    await fs.copyFile(files[0], clean);
+    await fs.copyFile(files[0], joined);
   } else {
     const list = path.join(TMP, `call-${call.id}.txt`);
     await fs.writeFile(list, files.map(concatEntry).join("\n") + "\n");
-    execFileSync(FFMPEG, ["-y", "-v", "error", "-f", "concat", "-safe", "0", "-i", list, "-c", "copy", clean]);
+    execFileSync(FFMPEG, ["-y", "-v", "error", "-f", "concat", "-safe", "0", "-i", list, "-c", "copy", joined]);
   }
+  // Voice-only dialogue: 96 kbps mono keeps 4-minute calls under the 3 MB target with no audible loss.
+  execFileSync(FFMPEG, ["-y", "-v", "error", "-i", joined, "-ac", "1", "-ar", "44100", "-b:a", "96k", clean]);
 
   if (FLAG_PHONE) {
     const phone = path.join(OUT, `call-${call.id}-phone.mp3`);
