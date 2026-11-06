@@ -2,6 +2,7 @@ import type { ReactNode } from "react";
 import { nav } from "@/content/site";
 import { Nav } from "@/components/marketing/Nav";
 import { Footer } from "@/components/marketing/Footer";
+import { AssistantLauncher } from "@/components/assistant/AssistantLauncher";
 
 export default function MarketingLayout({ children }: { children: ReactNode }) {
   return (
@@ -17,6 +18,7 @@ export default function MarketingLayout({ children }: { children: ReactNode }) {
         {children}
       </main>
       <Footer />
+      <AssistantLauncher />
     </>
   );
 }
