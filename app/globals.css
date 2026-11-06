@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply bg-paper text-ink antialiased;
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-sans text-base leading-relaxed md:text-lg;
+  }
+  h1,
+  h2 {
+    @apply font-display text-ink;
+    text-wrap: balance;
+  }
+  ::selection {
+    @apply bg-mint-tint text-brand;
+  }
+  :focus-visible {
+    @apply outline-none ring-2 ring-focus ring-offset-2 ring-offset-paper;
+  }
+}
+
+@layer components {
+  /* Section shell — brief §4.4 */
+  .section {
+    @apply scroll-mt-20 py-20 md:py-28;
+  }
+  .container-site {
+    @apply mx-auto max-w-6xl px-6;
+  }
+  .eyebrow {
+    @apply text-eyebrow font-medium text-mint-ink;
+  }
+  .h1 {
+    @apply font-display text-[40px] font-bold leading-[1.05] tracking-tight md:text-[60px];
+  }
+  .h2 {
+    @apply font-display text-[30px] font-semibold leading-[1.15] md:text-[40px];
+  }
+  .h3 {
+    @apply font-sans text-lg font-semibold leading-snug md:text-xl;
+  }
+  .body {
+    @apply max-w-prose text-base leading-relaxed md:text-lg;
+  }
+  .small {
+    @apply text-sm leading-normal;
+  }
+  .card {
+    @apply rounded-xl border border-line bg-surface p-6;
+  }
+  .btn-primary {
+    @apply inline-flex min-h-[44px] items-center justify-center rounded-lg bg-brand px-5 py-3 font-medium text-white transition-colors duration-150 hover:bg-brand-hover focus-visible:ring-2 focus-visible:ring-focus focus-visible:ring-offset-2;
+  }
+  .btn-primary-dark {
+    @apply inline-flex min-h-[44px] items-center justify-center rounded-lg bg-paper px-5 py-3 font-medium text-brand transition-colors duration-150 hover:bg-white focus-visible:ring-2 focus-visible:ring-focus focus-visible:ring-offset-2 focus-visible:ring-offset-brand;
+  }
+  .link-arrow {
+    @apply inline-flex min-h-[44px] items-center text-ink underline-offset-4 transition-colors duration-150 hover:underline;
+  }
+  .num {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
