@@ -1,3 +1,8 @@
-{ "ANA": "<filipino-female-voice-id>", "JUN": "<filipino-male-voice-id>",
-  "CARTER": "<us-male-voice-id-1>", "RACHEL": "<us-female-voice-id>",
-  "MARCUS": "<us-male-voice-id-2>", "TONY": "<us-male-voice-id-3>" }
+{
+  "ANA": "6AUOG2nbfr0yFEeI0784",
+  "JUN": "iSwrnpET4L5IyyN7X7UT",
+  "CARTER": "1SM7GgM6IMuvQlz2BwM3",
+  "RACHEL": "MnUw1cSnpiLoLhpd3Hqp",
+  "MARCUS": "UgBBYS2sOqTuMpoF3BR0",
+  "TONY": "KvaCHcJoMXfOzwtsULOZ"
+}

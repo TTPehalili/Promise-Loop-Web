@@ -1,1 +1,535 @@
-{}
+{
+  "1": [
+    {
+      "speaker": "CARTER",
+      "start": 0,
+      "end": 0.8
+    },
+    {
+      "speaker": "ANA",
+      "start": 0.8,
+      "end": 9.12
+    },
+    {
+      "speaker": "CARTER",
+      "start": 9.12,
+      "end": 11.12
+    },
+    {
+      "speaker": "ANA",
+      "start": 11.12,
+      "end": 19.84
+    },
+    {
+      "speaker": "CARTER",
+      "start": 19.84,
+      "end": 24.16
+    },
+    {
+      "speaker": "ANA",
+      "start": 24.16,
+      "end": 41.92
+    },
+    {
+      "speaker": "CARTER",
+      "start": 41.92,
+      "end": 44.96
+    },
+    {
+      "speaker": "ANA",
+      "start": 44.96,
+      "end": 53.28
+    },
+    {
+      "speaker": "CARTER",
+      "start": 53.28,
+      "end": 56
+    },
+    {
+      "speaker": "ANA",
+      "start": 56,
+      "end": 64.32
+    },
+    {
+      "speaker": "CARTER",
+      "start": 64.32,
+      "end": 70.48
+    },
+    {
+      "speaker": "ANA",
+      "start": 70.48,
+      "end": 74.64
+    },
+    {
+      "speaker": "CARTER",
+      "start": 74.64,
+      "end": 76.48
+    },
+    {
+      "speaker": "ANA",
+      "start": 76.51,
+      "end": 85.55
+    },
+    {
+      "speaker": "CARTER",
+      "start": 85.55,
+      "end": 91.55
+    },
+    {
+      "speaker": "ANA",
+      "start": 91.55,
+      "end": 99.39
+    },
+    {
+      "speaker": "CARTER",
+      "start": 99.39,
+      "end": 101.95
+    },
+    {
+      "speaker": "ANA",
+      "start": 101.95,
+      "end": 117.31
+    },
+    {
+      "speaker": "CARTER",
+      "start": 117.31,
+      "end": 122.43
+    },
+    {
+      "speaker": "ANA",
+      "start": 122.43,
+      "end": 137.39
+    },
+    {
+      "speaker": "CARTER",
+      "start": 137.39,
+      "end": 138.19
+    },
+    {
+      "speaker": "ANA",
+      "start": 138.19,
+      "end": 155.95
+    },
+    {
+      "speaker": "CARTER",
+      "start": 155.95,
+      "end": 159.63
+    },
+    {
+      "speaker": "ANA",
+      "start": 159.63,
+      "end": 165.79
+    },
+    {
+      "speaker": "CARTER",
+      "start": 165.79,
+      "end": 167.31
+    }
+  ],
+  "2": [
+    {
+      "speaker": "RACHEL",
+      "start": 0,
+      "end": 0.48
+    },
+    {
+      "speaker": "JUN",
+      "start": 0.48,
+      "end": 6.88
+    },
+    {
+      "speaker": "RACHEL",
+      "start": 6.88,
+      "end": 8.96
+    },
+    {
+      "speaker": "JUN",
+      "start": 8.96,
+      "end": 15.36
+    },
+    {
+      "speaker": "RACHEL",
+      "start": 15.36,
+      "end": 18
+    },
+    {
+      "speaker": "JUN",
+      "start": 18,
+      "end": 34.88
+    },
+    {
+      "speaker": "RACHEL",
+      "start": 34.88,
+      "end": 47.36
+    },
+    {
+      "speaker": "JUN",
+      "start": 47.36,
+      "end": 51.84
+    },
+    {
+      "speaker": "RACHEL",
+      "start": 51.84,
+      "end": 68.72
+    },
+    {
+      "speaker": "JUN",
+      "start": 68.72,
+      "end": 77.6
+    },
+    {
+      "speaker": "RACHEL",
+      "start": 77.6,
+      "end": 79.6
+    },
+    {
+      "speaker": "JUN",
+      "start": 79.6,
+      "end": 84.32
+    },
+    {
+      "speaker": "RACHEL",
+      "start": 84.32,
+      "end": 88.4
+    },
+    {
+      "speaker": "JUN",
+      "start": 88.4,
+      "end": 99.28
+    },
+    {
+      "speaker": "RACHEL",
+      "start": 99.87,
+      "end": 106.19
+    },
+    {
+      "speaker": "JUN",
+      "start": 106.19,
+      "end": 122.83
+    },
+    {
+      "speaker": "RACHEL",
+      "start": 122.83,
+      "end": 125.63
+    },
+    {
+      "speaker": "JUN",
+      "start": 125.63,
+      "end": 137.31
+    },
+    {
+      "speaker": "RACHEL",
+      "start": 137.31,
+      "end": 141.79
+    },
+    {
+      "speaker": "JUN",
+      "start": 141.79,
+      "end": 145.71
+    },
+    {
+      "speaker": "RACHEL",
+      "start": 145.71,
+      "end": 153.15
+    },
+    {
+      "speaker": "JUN",
+      "start": 153.15,
+      "end": 171.63
+    },
+    {
+      "speaker": "RACHEL",
+      "start": 171.63,
+      "end": 175.39
+    },
+    {
+      "speaker": "JUN",
+      "start": 175.39,
+      "end": 186.59
+    },
+    {
+      "speaker": "RACHEL",
+      "start": 186.59,
+      "end": 189.47
+    },
+    {
+      "speaker": "JUN",
+      "start": 189.47,
+      "end": 192.19
+    }
+  ],
+  "3": [
+    {
+      "speaker": "MARCUS",
+      "start": 0,
+      "end": 1.52
+    },
+    {
+      "speaker": "ANA",
+      "start": 1.52,
+      "end": 9.2
+    },
+    {
+      "speaker": "MARCUS",
+      "start": 9.2,
+      "end": 11.6
+    },
+    {
+      "speaker": "ANA",
+      "start": 11.6,
+      "end": 16.64
+    },
+    {
+      "speaker": "MARCUS",
+      "start": 16.64,
+      "end": 20.08
+    },
+    {
+      "speaker": "ANA",
+      "start": 20.08,
+      "end": 28
+    },
+    {
+      "speaker": "MARCUS",
+      "start": 28,
+      "end": 30.16
+    },
+    {
+      "speaker": "ANA",
+      "start": 30.16,
+      "end": 50.32
+    },
+    {
+      "speaker": "MARCUS",
+      "start": 50.32,
+      "end": 57.6
+    },
+    {
+      "speaker": "ANA",
+      "start": 57.6,
+      "end": 63.92
+    },
+    {
+      "speaker": "MARCUS",
+      "start": 63.92,
+      "end": 78.16
+    },
+    {
+      "speaker": "ANA",
+      "start": 78.16,
+      "end": 82.88
+    },
+    {
+      "speaker": "MARCUS",
+      "start": 82.88,
+      "end": 88.88
+    },
+    {
+      "speaker": "ANA",
+      "start": 88.88,
+      "end": 104.72
+    },
+    {
+      "speaker": "MARCUS",
+      "start": 104.72,
+      "end": 109.36
+    },
+    {
+      "speaker": "ANA",
+      "start": 109.36,
+      "end": 120.4
+    },
+    {
+      "speaker": "MARCUS",
+      "start": 120.4,
+      "end": 122.96
+    },
+    {
+      "speaker": "ANA",
+      "start": 123.01,
+      "end": 141.09
+    },
+    {
+      "speaker": "MARCUS",
+      "start": 141.09,
+      "end": 147.57
+    },
+    {
+      "speaker": "ANA",
+      "start": 147.57,
+      "end": 156.69
+    },
+    {
+      "speaker": "MARCUS",
+      "start": 156.69,
+      "end": 165.57
+    },
+    {
+      "speaker": "ANA",
+      "start": 165.57,
+      "end": 183.89
+    },
+    {
+      "speaker": "MARCUS",
+      "start": 183.89,
+      "end": 188.05
+    },
+    {
+      "speaker": "ANA",
+      "start": 188.05,
+      "end": 193.17
+    },
+    {
+      "speaker": "MARCUS",
+      "start": 193.17,
+      "end": 196.53
+    },
+    {
+      "speaker": "ANA",
+      "start": 196.53,
+      "end": 228.93
+    },
+    {
+      "speaker": "MARCUS",
+      "start": 228.93,
+      "end": 232.93
+    },
+    {
+      "speaker": "ANA",
+      "start": 232.93,
+      "end": 241.01
+    }
+  ],
+  "4": [
+    {
+      "speaker": "TONY",
+      "start": 0,
+      "end": 2.24
+    },
+    {
+      "speaker": "JUN",
+      "start": 2.24,
+      "end": 8.88
+    },
+    {
+      "speaker": "TONY",
+      "start": 8.88,
+      "end": 14.88
+    },
+    {
+      "speaker": "JUN",
+      "start": 14.88,
+      "end": 23.52
+    },
+    {
+      "speaker": "TONY",
+      "start": 23.52,
+      "end": 28.24
+    },
+    {
+      "speaker": "JUN",
+      "start": 28.24,
+      "end": 44.32
+    },
+    {
+      "speaker": "TONY",
+      "start": 44.32,
+      "end": 54.08
+    },
+    {
+      "speaker": "JUN",
+      "start": 54.08,
+      "end": 65.36
+    },
+    {
+      "speaker": "TONY",
+      "start": 65.36,
+      "end": 68.72
+    },
+    {
+      "speaker": "JUN",
+      "start": 68.72,
+      "end": 76.56
+    },
+    {
+      "speaker": "TONY",
+      "start": 76.56,
+      "end": 81.6
+    },
+    {
+      "speaker": "JUN",
+      "start": 81.6,
+      "end": 88
+    },
+    {
+      "speaker": "TONY",
+      "start": 88,
+      "end": 94.48
+    },
+    {
+      "speaker": "JUN",
+      "start": 94.48,
+      "end": 104.32
+    },
+    {
+      "speaker": "TONY",
+      "start": 104.36,
+      "end": 107.16
+    },
+    {
+      "speaker": "JUN",
+      "start": 107.16,
+      "end": 114.68
+    },
+    {
+      "speaker": "TONY",
+      "start": 114.68,
+      "end": 129.16
+    },
+    {
+      "speaker": "JUN",
+      "start": 129.16,
+      "end": 135.24
+    },
+    {
+      "speaker": "TONY",
+      "start": 135.24,
+      "end": 140.76
+    },
+    {
+      "speaker": "JUN",
+      "start": 140.76,
+      "end": 153.08
+    },
+    {
+      "speaker": "TONY",
+      "start": 153.08,
+      "end": 158.36
+    },
+    {
+      "speaker": "JUN",
+      "start": 158.36,
+      "end": 179.64
+    },
+    {
+      "speaker": "TONY",
+      "start": 179.64,
+      "end": 181.96
+    },
+    {
+      "speaker": "JUN",
+      "start": 181.96,
+      "end": 189.24
+    },
+    {
+      "speaker": "TONY",
+      "start": 189.24,
+      "end": 194.36
+    },
+    {
+      "speaker": "JUN",
+      "start": 194.36,
+      "end": 197.56
+    }
+  ]
+}
