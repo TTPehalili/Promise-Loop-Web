@@ -176,3 +176,18 @@
   animation-delay: 360ms;
 }
 /* End assistant widget ---------------------------------------------- */
+
+/* Graphics & motion: trades strip -------------------------------------
+   Plays once on load (< 1s), then still. Not applied under reduced motion. */
+@media (prefers-reduced-motion: no-preference) {
+  .pl-trade {
+    animation: pl-trade-in 420ms cubic-bezier(0.2, 0.7, 0.2, 1) backwards;
+  }
+}
+@keyframes pl-trade-in {
+  from {
+    opacity: 0;
+    transform: translateX(-16px);
+  }
+}
+/* End graphics & motion ------------------------------------------------ */

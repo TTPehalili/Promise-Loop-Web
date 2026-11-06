@@ -1,6 +1,7 @@
 // Homepage. Section order and backgrounds follow brief §6.
 import { homeMetadata } from "@/content/site";
 import { Hero } from "@/components/marketing/Hero";
+import { TradesStrip } from "@/components/marketing/graphics/TradesStrip";
 import { Pile } from "@/components/marketing/Pile";
 import { PileCalculator } from "@/components/marketing/PileCalculator";
 import { Loop } from "@/components/marketing/Loop";
@@ -20,6 +21,8 @@ export const metadata = homeMetadata;
 export default function HomePage() {
   return (
     <>
+      {/* Trades strip under the nav: says "field service" in the first second */}
+      <TradesStrip />
       {/* 6.1  paper */}
       <Hero />
       {/* 6.2  paper-deep */}
