@@ -3,6 +3,7 @@ import { nav } from "@/content/site";
 import { Nav } from "@/components/marketing/Nav";
 import { Footer } from "@/components/marketing/Footer";
 import { AssistantLauncher } from "@/components/assistant/AssistantLauncher";
+import { CookieNotice } from "@/components/marketing/CookieNotice";
 
 export default function MarketingLayout({ children }: { children: ReactNode }) {
   return (
@@ -13,6 +14,8 @@ export default function MarketingLayout({ children }: { children: ReactNode }) {
       >
         {nav.skipLink}
       </a>
+      {/* Early in the DOM so keyboard and screen reader users reach it right after the skip link. */}
+      <CookieNotice />
       <Nav />
       <main id="main" tabIndex={-1} className="focus:outline-none focus-visible:ring-0">
         {children}

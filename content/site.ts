@@ -688,9 +688,14 @@ export const finalCta: FinalCta = {
 /* 9 Footer                                                            */
 /* ------------------------------------------------------------------ */
 
+export interface FooterLink extends Link {
+  /** Added for cookie notice: render as a button that reopens the cookie notice. `href` is the no-JS fallback. */
+  action?: "cookiePreferences";
+}
+
 export interface FooterColumn {
   heading: string;
-  links: readonly Link[];
+  links: readonly FooterLink[];
 }
 
 export interface Footer {
@@ -741,6 +746,8 @@ export const footer: Footer = {
         { label: "Privacy Policy", href: "/privacy" },
         { label: "Terms of Service", href: "/terms" },
         { label: "Consumer rights", href: "/privacy#your-rights" },
+        // Added for cookie notice
+        { label: "Cookie preferences", href: "/privacy#cookies", action: "cookiePreferences" },
       ],
     },
   ],
@@ -773,6 +780,33 @@ export const footer: Footer = {
   // Added by Front-end: a11y label.
   navLabel: "Footer",
 };
+
+/* ------------------------------------------------------------------ */
+/* Cookie notice                                                       */
+/* ------------------------------------------------------------------ */
+
+// Added for cookie notice. Shown by components/marketing/CookieNotice.tsx.
+// Keep in step with content/legal/privacy.md §13 and lib/consent.ts.
+export const cookieNotice = {
+  regionLabel: "Cookie notice",
+  heading: "Cookies",
+  body: "We use only essential cookies to run this site and remember your chat with our assistant. No advertising or tracking cookies.",
+  policyLink: { label: "Privacy Policy", href: "/privacy#cookies" } satisfies Link,
+  accept: "OK",
+  preferences: "Preferences",
+  save: "Save preferences",
+  gpcDetected: "Global Privacy Control detected. Analytics and marketing stay off.",
+  categories: [
+    {
+      id: "essential",
+      label: "Essential",
+      status: "Always on",
+      description: "Keeps the site working, remembers this choice and keeps your chat with our assistant. These can't be turned off.",
+    },
+    { id: "analytics", label: "Analytics", status: "Not used today", description: "Would help us see how the site is used." },
+    { id: "marketing", label: "Marketing", status: "Not used today", description: "Would measure ads that bring people to the site." },
+  ],
+} as const;
 
 /* ------------------------------------------------------------------ */
 /* 6.14 SEO metadata                                                   */

@@ -86,8 +86,15 @@ Depending on your state (for example California, Colorado, Connecticut, Virginia
 
 To make a request, email [privacy@promiseloop.com] or call [toll-free number]. We will verify your identity first. You may use an authorized agent. We will not treat you differently for exercising your rights. We honor Global Privacy Control browser signals on our website.
 
+<!-- id: cookies -->
 ## 13. Cookies
-Our website uses essential cookies for security and login. [We use no advertising or tracking cookies. / List any analytics tool and how to opt out.]
+Our website uses only essential cookies and similar browser storage. We use no advertising or tracking cookies, we run no analytics, and we don't load third-party tracking scripts. All of the items below are first-party: only our website can read them.
+- **pl_consent** (cookie): remembers your cookie choice. Kept for 12 months.
+- **pl_vid** (cookie): set only when you open the chat with our website assistant, so it can continue your conversation on a later visit. Not used for advertising. Kept for 180 days, or until you ask the assistant to forget you.
+- **pl_assistant_nudge_at** (browser local storage): records when the assistant last offered help, so it offers at most once a week. Stays until you clear your browser's site data.
+- **pl_assistant_nudge_dismissed** (browser session storage): remembers that you closed that offer. Cleared when you close the tab.
+
+To review or change your choice, use the "Cookie preferences" link at the bottom of any page. You can also delete these items in your browser settings at any time. The client platform you log in to uses essential cookies for security and sign-in.
 
 ## 14. Children
 Our services are not directed to children under 13, and we do not knowingly collect their information. If we learn that we have, we delete it.

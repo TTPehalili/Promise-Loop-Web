@@ -6,6 +6,7 @@
 import { useEffect, useState } from "react";
 import { X } from "lucide-react";
 import { focusRing } from "./ui";
+import { CONSENT_EVENT, getConsent } from "@/lib/consent";
 
 const SHOWN_KEY = "pl_assistant_nudge_at";
 const DISMISSED_KEY = "pl_assistant_nudge_dismissed";
@@ -37,8 +38,19 @@ export default function AssistantNudge({ onOpen }: { onOpen: () => void }) {
     if (!canShow()) return;
     let done = false;
     const cleanups: Array<() => void> = [];
+    let waitingForConsent = false;
     const show = () => {
       if (done || !canShow()) return;
+      // The cookie notice sits where this bubble would (just above the launcher on mobile):
+      // hold the nudge until the visitor has answered it, then show it.
+      if (!getConsent()) {
+        if (!waitingForConsent) {
+          waitingForConsent = true;
+          window.addEventListener(CONSENT_EVENT, show, { once: true });
+          cleanups.push(() => window.removeEventListener(CONSENT_EVENT, show));
+        }
+        return;
+      }
       done = true;
       markShown();
       setVisible(true);

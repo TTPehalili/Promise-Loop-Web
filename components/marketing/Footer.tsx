@@ -4,9 +4,12 @@ import NextLink from "next/link";
 import { footer } from "@/content/site";
 import { Logo } from "./graphics/Logo";
 import { CtaLink, Rich, siteHref } from "./CtaLink";
+import { CookiePreferencesLink } from "./CookiePreferencesLink";
 
 const focusDark =
   "rounded focus-visible:ring-2 focus-visible:ring-focus focus-visible:ring-offset-2 focus-visible:ring-offset-brand";
+
+const footerLink = `inline-flex min-h-[44px] items-center text-sm text-paper/80 transition-colors duration-150 hover:text-paper hover:underline hover:underline-offset-4 ${focusDark}`;
 
 function legalLine() {
   return footer.legalLineTemplate.replace("{year}", String(new Date().getFullYear()));
@@ -32,12 +35,15 @@ export function Footer() {
                 <ul className="mt-3">
                   {col.links.map((l) => (
                     <li key={l.label}>
-                      <CtaLink
-                        href={siteHref(l.href)}
-                        className={`inline-flex min-h-[44px] items-center text-sm text-paper/80 transition-colors duration-150 hover:text-paper hover:underline hover:underline-offset-4 ${focusDark}`}
-                      >
-                        {l.label}
-                      </CtaLink>
+                      {l.action === "cookiePreferences" ? (
+                        <CookiePreferencesLink href={l.href} className={footerLink}>
+                          {l.label}
+                        </CookiePreferencesLink>
+                      ) : (
+                        <CtaLink href={siteHref(l.href)} className={footerLink}>
+                          {l.label}
+                        </CtaLink>
+                      )}
                     </li>
                   ))}
                 </ul>

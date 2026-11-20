@@ -32,11 +32,7 @@ const byDoc: Record<LegalDoc, Substitution[]> = {
     { find: "[consumer email / phone]", replace: HELLO },
     // §12 — TODO: privacy@ inbox and a toll-free number
     { find: "email [privacy@promiseloop.com] or call [toll-free number].", replace: `email ${HELLO}.` },
-    // §13 — the site runs no analytics
-    {
-      find: "[We use no advertising or tracking cookies. / List any analytics tool and how to opt out.]",
-      replace: "We use no advertising or tracking cookies.",
-    },
+    // §13 — no substitution: the cookie list is written out in privacy.md (no brackets left).
     // §16 — TODO: privacy@ inbox; DPO line removed until a DPO is named
     { find: /\n?Data Protection Officer \(Philippines\): \[Name, email\][^\n]*/, replace: "" },
     { find: "[privacy@promiseloop.com]", replace: HELLO },
@@ -74,7 +70,7 @@ export const unresolvedForCounsel: string[] = [
   "Privacy §9: sentence 'Client account data is kept for the length of the client relationship plus [X] years.' removed. Counsel to set the retention period.",
   "Privacy §11: '[consumer email / phone]' set to hello@promiseloop.com. Replace with the consumer line when it exists.",
   "Privacy §12: '[privacy@promiseloop.com] or call [toll-free number]' set to hello@promiseloop.com; phone option dropped.",
-  "Privacy §13: cookie bracket set to 'We use no advertising or tracking cookies.' Revisit if analytics is ever added.",
+  "Privacy §13 cookie list added — counsel to review. Bracket replaced by a list of pl_consent, pl_vid and the two assistant storage items, plus the 'Cookie preferences' footer link. Update the list and bump CONSENT_VERSION in lib/consent.ts if analytics or any other cookie is ever added.",
   "Privacy §16: '[privacy@promiseloop.com]' set to hello@promiseloop.com; 'Data Protection Officer (Philippines): [Name, email]' line removed until a DPO is registered.",
   "Terms §3: notice window [2] business days set to 2.",
   "Terms §5: fee tail '[X] days after a promise to pay' rewritten to 'the period set in your Order'. Counsel to set the period.",
