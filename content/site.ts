@@ -86,6 +86,9 @@ export const nav: Nav = {
 export interface Hero {
   eyebrow: string;
   h1: string;
+  /** Opening sentence of the subhead, rendered bold. */
+  subheadLead: string;
+  /** Rest of the subhead, rendered after the lead. */
   subhead: string;
   primaryCta: Link;
   secondaryCta: Link;
@@ -103,10 +106,11 @@ export interface Hero {
 }
 
 export const hero: Hero = {
-  eyebrow: "Collections as a service for US field service companies",
+  eyebrow: "Collections as a service for service-based companies",
   h1: "Your unpaid jobs are a pipeline. We work it.",
+  subheadLead: "We take payment follow-up off your office team's plate.",
   subhead:
-    "PromiseLoop is your outsourced collections team in Manila. Trained reps call your customers in your name, on your own dialer, and turn past-due invoices into promises to pay, and promises into confirmed cash. Without burning the customer.",
+    "PromiseLoop runs a systematic approach to invoice follow-ups and provides a dedicated calling team that contacts customers, tracks promises to pay, and follows through on outstanding invoices until payment is confirmed. Your team handles the next job. We help close the loop on the last one.",
   primaryCta: { label: "Book a demo", href: "demo" },
   secondaryCta: { label: "Hear a real-style call →", href: "#calls" },
   trustItems: ["No setup fee", "Live in 72 hours", "Calls placed by people, not robots"],
@@ -211,11 +215,24 @@ export const loop: Loop = {
   h2: "Every account runs the same loop.",
   body: "We don't just make calls. We move each account forward until the loop is closed.",
   stages: [
-    { step: 1, name: "New", body: "Your account lands in the pipeline." },
-    { step: 2, name: "Contacting", body: "A rep calls, by the rules, at a good time." },
-    { step: 3, name: "Promised", body: "The customer commits to an amount and a date." },
-    { step: 4, name: "Waiting for you", body: "The customer says they paid. You check." },
-    { step: 5, name: "Confirmed paid", body: "You confirm it. Loop closed." },
+    { step: 1, name: "New", body: "Your account enters the pipeline." },
+    {
+      step: 2,
+      name: "Invoice uploaded",
+      body: "Upload your unpaid invoices. PromiseLoop organizes the accounts and starts the follow-up sequence.",
+    },
+    {
+      step: 3,
+      name: "Contacting",
+      body: "Our system schedules follow-ups, while a trained rep contacts the customer by call, text, or email according to the agreed rules.",
+    },
+    {
+      step: 4,
+      name: "Promised",
+      body: "The customer commits to an amount and a payment date. The commitment is recorded for follow-through.",
+    },
+    { step: 5, name: "Waiting for you", body: "The customer says they've paid. You verify the payment." },
+    { step: 6, name: "Confirmed paid", body: "You confirm the payment. Loop closed." },
   ],
   pipelineColumns: ["New", "Contacting", "Promised", "Waiting for client", "Confirmed paid"],
 };
@@ -241,7 +258,7 @@ export interface HowItWorks {
 export const howItWorks: HowItWorks = {
   anchor: "how",
   eyebrow: "How it works",
-  h2: "Plug us in. We make the calls. You confirm the cash.",
+  h2: "Plug us in. Our system does the follow-up. We make the calls. You confirm the cash.",
   steps: [
     {
       number: "01",

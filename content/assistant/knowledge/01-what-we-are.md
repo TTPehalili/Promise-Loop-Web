@@ -1,7 +1,7 @@
 ---
 title: What PromiseLoop is
 topic: what-we-are
-updated: 2026-11-07
+updated: 2026-11-20
 source: content/faq.ts ("What is PromiseLoop?"); PROMISELOOP_WEBSITE_BUILD.md §1, §6.1, §6.4, §6.5, §6.6
 status: draft-needs-business-signoff
 ---
@@ -19,13 +19,14 @@ status: draft-needs-business-signoff
 
 ## The loop
 
-Every account runs the same five stages:
+Every account runs the same six stages:
 
-1. New: the account lands in the pipeline.
-2. Contacting: a rep calls, by the rules, at a good time.
-3. Promised: the customer commits to an amount and a date.
-4. Waiting for you: the customer says they paid; the client checks.
-5. Confirmed paid: the client confirms it. Loop closed.
+1. New: the account enters the pipeline.
+2. Invoice uploaded: the client uploads its unpaid invoices; PromiseLoop organizes the accounts and starts the follow-up sequence.
+3. Contacting: the system schedules follow-ups, while a trained rep contacts the customer by call, text or email according to the agreed rules.
+4. Promised: the customer commits to an amount and a payment date; the commitment is recorded for follow-through.
+5. Waiting for you: the customer says they've paid; the client verifies the payment.
+6. Confirmed paid: the client confirms the payment. Loop closed.
 
 "Loop" means closing the loop on each account. It never means calling repeatedly.
 

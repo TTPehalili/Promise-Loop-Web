@@ -1,4 +1,4 @@
-// 6.4 The loop (#loop). Paper-deep. Desktop: the open ring with five points, the check
+// 6.4 The loop (#loop). Paper-deep. Desktop: the open ring with one point per stage, the check
 // sitting in the gap after Confirmed paid. Mobile: a horizontal track. The ordered list
 // carries the content; both drawings are decorative (aria-hidden).
 import { loop } from "@/content/site";
@@ -6,10 +6,10 @@ import { MARK_CHECK_PATH } from "./graphics/LoopMark";
 import { Section, SectionHeader } from "./Section";
 
 // Ring geometry. Angles are clockwise from 12 o'clock. The 60° gap sits at lower right,
-// like the mark; stage 1 starts after the gap and stage 5 ends just before it.
+// like the mark; stage 1 starts after the gap and the last stage ends just before it.
 const C = 170;
 const R = 130;
-const GAP_START = 105; // arc ends here (stage 5)
+const GAP_START = 105; // arc ends here (last stage)
 const GAP_END = 165; // arc starts here (stage 1)
 const SPAN = 360 - (GAP_END - GAP_START);
 

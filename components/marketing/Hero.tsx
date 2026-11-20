@@ -12,7 +12,9 @@ export function Hero() {
           <h1 id="hero-title" className="h1 mt-4 text-balance">
             {hero.h1}
           </h1>
-          <p className="body mt-6 text-ink-muted">{hero.subhead}</p>
+          <p className="body mt-6 text-ink-muted">
+            <strong className="font-semibold text-ink">{hero.subheadLead}</strong> {hero.subhead}
+          </p>
           <div className="mt-8 flex flex-col items-start gap-3 sm:flex-row sm:items-center sm:gap-6">
             <CtaLink href={hero.primaryCta.href} className="btn-primary">
               {hero.primaryCta.label}
