@@ -7,3 +7,8 @@ out/
 *.tsbuildinfo
 next-env.d.ts
 .DS_Store
+
+# Demo video render leftovers (video/render-demo.mjs)
+video/_chrome_profile_*/
+video/_*.mp4
+video/_*.wav
