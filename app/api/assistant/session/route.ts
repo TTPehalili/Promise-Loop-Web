@@ -1,5 +1,6 @@
 import { after, NextResponse } from "next/server";
 import { ipAllowed, LIMITS } from "@/lib/assistant/guard";
+import { modelConfigured } from "@/lib/assistant/env";
 import { errorResponse, readVisitorId, setVisitorCookie } from "@/lib/assistant/http";
 import { buildGreeting, firstGreeting, rewriteMemorySummary, toUIMessages, withinMemoryWindow } from "@/lib/assistant/memory";
 import { getStore, type SessionRow } from "@/lib/assistant/store";
@@ -14,6 +15,9 @@ const RESUME_MESSAGES = 20;
 
 export async function GET(req: Request) {
   if (!ipAllowed(req)) return errorResponse("rate_limited");
+  // No model: say so up front (the panel shows its offline state) instead of greeting the
+  // visitor and failing on their first message. Also sets no visitor cookie.
+  if (!modelConfigured()) return errorResponse("unavailable");
   const fresh = new URL(req.url).searchParams.get("fresh") === "1";
   const store = getStore();
 

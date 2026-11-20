@@ -12,7 +12,7 @@ import {
 } from "ai";
 import { after } from "next/server";
 import { z } from "zod";
-import { assistantEnv } from "@/lib/assistant/env";
+import { assistantEnv, modelConfigured } from "@/lib/assistant/env";
 import {
   cannedReply,
   clientIp,
@@ -82,7 +82,7 @@ export async function POST(req: Request) {
   }
 
   // 2. Model available?
-  if (!assistantEnv.anthropicKey()) return errorResponse("unavailable");
+  if (!modelConfigured()) return errorResponse("unavailable");
 
   // 3. Rate limit (per IP; in-memory, per instance)
   const ip = clientIp(req);
@@ -236,7 +236,6 @@ export async function POST(req: Request) {
     tools,
     stopWhen: isStepCount(5),
     maxOutputTokens: 700,
-    temperature: 0.3,
     prepareStep: ({ stepNumber }) =>
       stepNumber === 0 && bookingSlotValid
         ? { toolChoice: { type: "tool", toolName: "book_demo" } }

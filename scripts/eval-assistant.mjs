@@ -72,7 +72,7 @@ class Client {
     const res = await this.req("POST", "/api/assistant/chat", { sessionId, message, visitorTz: "America/Chicago", pagePath: "/" });
     if (!res.ok) return { status: res.status, error: await res.text(), text: "", tools: [], outputs: {} };
     const raw = await res.text();
-    let text = "";
+    let reply = "";
     const tools = [];
     const names = {};
     const outputs = {};
@@ -87,7 +87,7 @@ class Client {
       } catch {
         continue;
       }
-      if (c.type === "text-delta") text += c.delta;
+      if (c.type === "text-delta") reply += c.delta;
       if ((c.type === "tool-input-start" || c.type === "tool-input-available") && c.toolName) {
         names[c.toolCallId] = c.toolName;
         if (!tools.includes(c.toolName)) tools.push(c.toolName);
@@ -95,7 +95,7 @@ class Client {
       if (c.type === "tool-output-available") outputs[names[c.toolCallId] ?? c.toolCallId] = c.output;
       if (c.messageMetadata) metadata2 = { ...metadata2, ...c.messageMetadata };
     }
-    return { status: 200, text, tools, outputs, metadata: metadata2 };
+    return { status: 200, text: reply, tools, outputs, metadata: metadata2 };
   }
 }
 

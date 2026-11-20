@@ -4,6 +4,19 @@ import { contactEmail, demoUrl } from "@/lib/links";
 
 const str = (v: string | undefined) => (v && v.trim() ? v.trim() : undefined);
 
+let warnedMissingKey = false;
+/** True when the model key is set. Logs once per server instance when it isn't, so a silent 503 has a cause in the logs. */
+export function modelConfigured(): boolean {
+  if (str(process.env.ANTHROPIC_API_KEY)) return true;
+  if (!warnedMissingKey) {
+    warnedMissingKey = true;
+    console.error(
+      "[assistant] ANTHROPIC_API_KEY is not set (or is empty): the chat widget shows 'offline'. Set it in .env.local locally and in the hosting provider's environment variables for production, then restart/redeploy.",
+    );
+  }
+  return false;
+}
+
 export const assistantEnv = {
   anthropicKey: () => str(process.env.ANTHROPIC_API_KEY),
   model: () => str(process.env.ASSISTANT_MODEL) ?? "claude-haiku-5-5",
